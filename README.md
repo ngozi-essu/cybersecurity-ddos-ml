@@ -5,7 +5,7 @@ Machine Learning–based DDoS Attack Detection using MLP and CNN | Cybersecurity
 **Detecting malicious network traffic using the CICIDS2017 Dataset.**
 
 ## 📌 Project Overview
-This project focuses on classifying network traffic as either 'Benign' or 'DDoS' (Distributed Denial of Service). Using the CICIDS2017 dataset, I implemented a machine learning pipeline to handle high-dimensional network data and identify attack patterns with high precision.
+This project focuses on classifying network traffic as either 'Normal' or 'DDoS' (Distributed Denial of Service). Using the CICIDS2017 dataset, I implemented a machine learning pipeline to handle high-dimensional network data and identify attack patterns with high precision.
 
 ## 📊 The Data
 - **Source:** [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
