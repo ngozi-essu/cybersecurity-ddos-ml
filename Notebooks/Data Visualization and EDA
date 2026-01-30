@@ -1,1 +1,12 @@
 
+from sklearn.decomposition import PCA
+
+pca = PCA(n_components=5)
+data_2d = pca.fit_transform(data_scaled)
+plt.scatter(data_2d[:, 0], data_2d[:, 1], c=kmeans.labels_, cmap='viridis', marker='o')
+plt.title('Cluster Visualization (2D Projection)')
+plt.xlabel('PCA Component 1')
+plt.ylabel('PCA Component 2')
+plt.colorbar(label='Cluster')
+plt.show()
+print(dataset4)
